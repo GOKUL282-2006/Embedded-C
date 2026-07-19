@@ -1,0 +1,119 @@
+#include <stdio.h>
+int main()
+{
+    int a;
+    int b;
+    printf("Enter the first value: ");
+    scanf("%d",&a);
+    printf("Enter the second value: ");
+    scanf("%d",&b);
+    printf("Addition: %d\n",a+b);
+    printf("Subraction: %d\n",a-b);
+    printf("Multiplication: %d\n",a*b);
+    printf("Division: %d\n",a/b);
+    printf("Modulus: %d\n",a%b);
+    return 0;
+   
+}
+
+
+#include <stdio.h>
+int main()
+{
+    int a;
+    printf("Enter the value: ");
+    scanf("%d",&a);
+    printf("The value is %d\n",a);
+    printf("pre-increment: %d\n",++a);
+    printf("post-increment: %d\n",a++);
+    printf("%d\n",a);
+    printf("pre-decrement: %d\n",--a);
+    printf("post-decrement: %d\n",a--);
+    printf("%d\n",a);
+    return 0;
+}
+
+
+#include <stdio.h>
+int main()
+{
+    float distance;
+    float time;
+    float speed;
+    printf("Distance in km: ");
+    scanf("%f",&distance);
+    printf("Time in hrs: ");
+    scanf("%f",&time);
+    speed=distance/time;
+    printf("Speed is %.1f km/h",speed);
+    return 0;
+}
+
+
+#include <stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("Enter the first value: ");
+    scanf("%d",&a);
+    printf("Enter the second value: ");
+    scanf("%d",&b);
+    printf("Enter the third value: ");
+    scanf("%d",&c);
+    printf("Average value is %d",(a+b+c)/3);
+    return 0;
+}
+
+
+#include <stdio.h>
+int main()
+{
+   int length;
+   int width;
+   printf("Length in cm: ");
+   scanf("%d",&length);
+   printf("Width in cm: ");
+   scanf("%d",&width);
+   printf("Area of the rectangle is %dcm^2\n",length*width);
+   printf("perimeter of the rectangle is %dcm\n",2*(length+width));
+   return 0;
+}
+
+
+#include <stdio.h>
+int main()
+{
+   int side;
+   printf("Side in cm: ");
+   scanf("%d",&side);
+   printf("Area of the square is %dcm^2\n",side*side);
+   printf("perimeter of the square is %dcm\n",4*side);
+   return 0;
+}
+
+
+#include <stdio.h>
+int main()
+{
+   float radius,area,perimeter;
+   printf("Radius in cm: ");
+   scanf("%f",&radius);
+   area=(3.14*radius*radius);
+   perimeter=(2*3.14*radius);
+   printf("Area of the circle is %.1fcm^2\n",area);
+   printf("perimeter of the circle is %.1fcm\n",perimeter);
+   return 0;
+}
+
+
+#include <stdio.h>
+int main()
+{
+    float celsius;
+    float fahrenheit;
+    printf("Celsius: ");
+    scanf("%f",&celsius);
+    fahrenheit=((celsius*1.8)+32);
+    printf("Fahrenheit value is %.1f",fahrenheit);
+    return 0;
+}
