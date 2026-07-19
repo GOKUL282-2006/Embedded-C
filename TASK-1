@@ -117,3 +117,115 @@ int main()
     printf("Fahrenheit value is %.1f",fahrenheit);
     return 0;
 }
+
+
+#include <stdio.h>
+int main()
+{
+    float principal,rate,time,SI;
+    printf("Principal amount: ");
+    scanf("%f",&principal);
+    printf("Rate: ");
+    scanf("%f",&rate);
+    printf("Time: ");
+    scanf("%f",&time);
+    SI=((principal*rate*time)/100);
+    printf("Simple interest: %.1f",SI);
+    return 0;
+}
+
+
+#include <stdio.h>
+int main()
+{
+   int a,b,c,d,e;
+   float total;
+   float percentage;
+   printf("Tamil: ");
+   scanf("%d",&a);
+    printf("English: ");
+   scanf("%d",&b);
+    printf("Maths: ");
+   scanf("%d",&c);
+    printf("Science: ");
+   scanf("%d",&d);
+    printf("Social: ");
+   scanf("%d",&e);
+   total=(a+b+c+d+e);
+   percentage=((total/500)*100);
+   printf("Total mark is %.1f\n",total);
+   printf("percentage is %.1f%%",percentage);
+    return 0;
+}
+
+
+#include <stdio.h>
+int main()
+{
+int a=4;
+printf("%d\n",a);
+a+=2;
+printf("%d\n",a);
+a-=2;
+printf("%d\n",a);
+a*=2;
+printf("%d\n",a);
+a/=2;
+printf("%d\n",a);
+a%=2;
+printf("%d\n",a);
+return 0;
+}
+
+
+#include <stdio.h>
+int main()
+{
+int a,digit;
+printf("Enter your value: ");
+scanf("%d",&a);
+digit=a%100;
+printf("Last two digits is %d",digit);
+return 0;
+}
+
+
+#include <stdio.h>
+int main()
+{
+   int a,b,c;
+   b=(a=8,a*a);
+   c=(a=6,a*a*a);
+   printf("Square value: %d\n",b);
+   printf("Cube value: %d",c);
+    return 0;
+}
+
+
+#include <stdio.h>
+int main()
+{
+  int a;
+  float b;
+  char c;
+  double d;
+  printf("sizeof(a)=%zu\n",sizeof(a));
+  printf("sizeof(b)=%zu\n",sizeof(b));
+  printf("sizeof(c)=%zu\n",sizeof(c));
+  printf("sizeof(d)=%zu\n",sizeof(d));
+    return 0;
+}
+
+
+#include <stdio.h>
+int main()
+{
+  int a,b,c;
+  printf("Enter first value: ");
+  scanf("%d",&a);
+  printf("Enter second value: ");
+  scanf("%d",&b);
+   c=a<b?a:b;
+   printf("Smaller value is %d",c);
+    return 0;
+}
